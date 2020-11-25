@@ -1,29 +1,74 @@
 html {
-	box-sizing: border-box;
-  }
-  *,*::before,
-  *::after{
-	  box-sizing: inherit;
-  }
-a {
-	display: inline-block;
-	text-decoration: none;
-  }
-  ul,
-  li {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-  }
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
 
-  body {
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 30px;
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
 }
 
 .container {
-		max-width: 1200px;
-		margin: 0 auto;
-		padding: 0 15px;
-	  }
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.container-fluid {
+  max-width: 1940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
